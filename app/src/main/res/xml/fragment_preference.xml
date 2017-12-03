@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    >
+
+    <PreferenceCategory
+        android:title="Preferences">
+
+        <CheckBoxPreference
+            android:key="loadFromFile"
+            android:title="loadFromFile?"
+            android:summary="if checked, loads dummy data, if unchecked, loads from api"/>
+
+    </PreferenceCategory>
+
+    <EditTextPreference android:title="Refresh Interval"
+        android:key="refreshInterval"
+        android:summary="please define the refresh interval in seconds "
+        android:inputType="number"
+        android:defaultValue="20"
+        ></EditTextPreference>
+
+    <EditTextPreference android:title="Api Url"
+        android:key="ApiUrl"
+        android:summary="please define the Url for calling the Api"
+        android:defaultValue="http://192.168.1.99/node"></EditTextPreference>
+
+    <EditTextPreference android:title="Initial Map Zoom Level"
+        android:key="zoomLevel"
+        android:summary="Value between 0 (very far out) and 22 (very far in) "
+        android:inputType="number"
+        android:defaultValue="15"
+        ></EditTextPreference>
+
+
+
+</PreferenceScreen>
