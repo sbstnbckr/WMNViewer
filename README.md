@@ -3,7 +3,7 @@
 Diese Android App ist Teil eines größeren Projektes. Sie dient zur Visualisierung eines auf	hwmp	basierenden	Wireless	Meshed	Networks (kurz:	
 WMN).
 
-Ziele	des	Projektes:
+##Ziele	des	Projektes:
 Dieses	Projekt	dient	zur	Visualisierung	eines	auf	hwmp	basierenden	Wireless	Meshed	Networks(kurz:	
 WMN).
 Eine	Einsatzmöglichkeit des	oben	geannten Wireless	Meshed	Networks	ist	
